@@ -10,10 +10,14 @@
   --skeleton-color: #d9d9d9;
   --shape-transparency: #ffffff81;
   --text-color-primary: #313131;
-  --text-color-secundary: #6c6c6c;
+  --text-color-secondary: #6c6c6c;
 
 }
 
 body {
-  background-color: var(--background-color);
+  color: var(--text-color-secondary);
+background-color: var(--background-color);
+}
+body {
+  font-family: 'FontFamily', sans-serif;
 }
