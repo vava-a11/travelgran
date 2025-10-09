@@ -14,17 +14,13 @@
 
  --font-family: 'Poppins', sans-serif;
  --text-lg: bold 32px/125% var(--font-family);
- --text-md: 14px/170%
- --text-sm: 12px/170%
+ --text-md: 14px/170% var(--font-family);
+ --text-sm: 12px/170% var(--font-family);
  --text: 16px/1.5 var(--font-family);
 }
 
 body {
   color: var(--text-color-secondary);
-
-
-background-color: var(--background-color);
-}
-body {
+  background-color: var(--background-color);
   font-family: 'Poppins', sans-serif;
 }
